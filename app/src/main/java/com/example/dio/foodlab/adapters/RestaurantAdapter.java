@@ -119,7 +119,7 @@ public class RestaurantAdapter extends BaseAdapter {
 
                     @Override
                     public void onNext(ResponseBody restaurants) {
-                        Log.d(TAG, "restaurant removed - success");
+                        Log.d(TAG, "Restaurant removed successfully");
                         Toast.makeText(context, "Restaurant removed", Toast.LENGTH_LONG).show();
                         notifyDataSetChanged();
                     }
